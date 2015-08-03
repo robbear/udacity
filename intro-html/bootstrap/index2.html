@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lan="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Sample Use Page</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="https://placekitten.com/115/115" alt="Logo" class="title-logo">
+      </div>
+      <div class="col-md-6 text-uppercase text-right">
+        <h1 class="text-thin title-super">Rob Bearman</h1>
+        <h4>Developer Guru</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img src="https://placekitten.com/g/1000/500" alt="Kitten" class="img-responsive" data-toggle="modal" data-target="#sampleModal">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-muted">Featured Work</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="http://placekitten.com/285/185" alt="Appify" class="img-responsive">
+        <h3 class="text-uppercase">Appify</h3>
+        <p>http://github.com/udacity/appify</p>
+      </div>
+      <div class="col-md-4">
+        <img src="http://placekitten.com/285/185" alt="Sunflower" class="img-responsive">
+        <h3 class="text-uppercase">Sunflower</h3>
+        <p>http://github.com/udacity/sunflower</p>
+      </div>
+      <div class="col-md-4">
+        <img src="http://placekitten.com/285/185" alt="Bokeh" class="img-responsive">
+        <h3 class="text-uppercase">Bokeh</h3>
+        <p>http://github.com/udacity/bokeh</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="sampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="https://placekitten.com/g/1000/500">
+          Kittens, puppies. What is the world coming to?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
